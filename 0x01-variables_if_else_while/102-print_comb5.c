@@ -15,13 +15,13 @@ for (k = 48 ; k < 58 ; k++)
 {
 for (l = 48 ; l < 58 ; l++)
 {
-if (((k+l) > (i+j) && k >= i) || i < k)
+if (((k + l) > (i + j) && k >= i) || i < k)
 {
 putchar (i);
 putchar (j);
 putchar (' ');
 putchar (k);
-putchar (l):
+putchar (l);
 if (i != 57 && i + j + k + l == 227)
 {
 break;
