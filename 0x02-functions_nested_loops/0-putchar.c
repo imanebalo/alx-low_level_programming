@@ -4,8 +4,8 @@
 *is written by mbah
 *Return: 0
 */
-int main (void)
+int main(void)
 {
-printf ("_putchar");
+printf("_putchar");
 return (0);
 }
