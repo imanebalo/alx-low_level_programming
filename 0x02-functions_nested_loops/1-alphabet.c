@@ -4,10 +4,10 @@
 */
 void print_alphabet(void)
 {
-char alp;
-for (alp = 'a'; alp <= 'z'; alp++)
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-_putchar (alp);
+_putchar (letter);
 }
 _putchar ('\n');
 return (0);
