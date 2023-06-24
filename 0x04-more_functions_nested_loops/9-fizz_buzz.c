@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Program that prints the numbers from 1 to 100
  * followed by a new line
@@ -23,7 +24,7 @@ printf("Buzz");
 }
 else
 {
-printf("%d",i);
+printf("%i",i);
 }
 if (i < 100)
 {
