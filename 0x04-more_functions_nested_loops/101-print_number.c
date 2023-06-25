@@ -12,12 +12,20 @@ _putchar('0');
 }
 if (n < 0)
 {
-_putchar(45);
-_putchar(n);
+_putchar('-');
+n = -n;
 }
-else if (n > 0)
+int divisor = 1;
+while (n / divisor >= 10)
 {
-_putchar(n);
+divisor *= 10;
+}
+whlie (divisor > 0)
+{
+int digit = n / divisor;
+_putchar('0' + digit);
+n %= divisor;
+divisor /= 10;
 }
 return (0);
 }
