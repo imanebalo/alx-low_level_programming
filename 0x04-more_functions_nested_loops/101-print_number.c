@@ -6,10 +6,6 @@
  */
 void print_number(int n)
 {
-if (n == 0)
-{
-_putchar('0');
-}
 if (n < 0)
 {
 _putchar('-');
@@ -20,7 +16,7 @@ while (n / divisor >= 10)
 {
 divisor *= 10;
 }
-whlie (divisor > 0)
+while (divisor > 0)
 {
 int digit = n / divisor;
 _putchar('0' + digit);
