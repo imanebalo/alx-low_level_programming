@@ -10,5 +10,14 @@ if (n == 0)
 {
 _putchar('0');
 }
+if (n < 0)
+{
+_putchar(45);
+_putchar(n);
+}
+else if (n > 0)
+{
+_putchar(n);
+}
 return (0);
 }
