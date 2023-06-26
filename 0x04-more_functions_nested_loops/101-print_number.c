@@ -2,7 +2,6 @@
 /**
  * print_number - Function that prints an integer
  * @n: an integer
- * Return: 0 Success
  */
 void print_number(int n)
 {
@@ -17,5 +16,4 @@ if (i / 10)
 print_number(i / 10);
 }
 _putchar(i % 10 + '0');
-return (0);
 }
