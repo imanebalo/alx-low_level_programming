@@ -2,6 +2,7 @@
 /**
  * print_diagonal - Function thatdraw a diagonal line on the terminal
  * @n: time of caracter \
+ * Return: void
  */
 void print_diagonal(int n)
 {
