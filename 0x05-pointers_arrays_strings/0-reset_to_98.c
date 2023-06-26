@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - Function that takes a poiter to an int as parameter
  * and updates the values it points to do 98
- * @*n: int to check
+ * @n: int to check
  */
 void reset_to_98(int *n)
 {
