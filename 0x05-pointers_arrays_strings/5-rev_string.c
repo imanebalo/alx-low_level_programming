@@ -12,7 +12,7 @@ while (s[a] != '\0')
 a++;
 }
 d = a - 1;
-for(b = 0; d >= 0 && b < d; d--, b++)
+for (b = 0; d >= 0 && b < d; d--, b++)
 {
 c = s[b];
 s[b] = s[d];
