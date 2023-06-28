@@ -2,30 +2,25 @@
 /**
  * puts_half - Function that prints half of a string
  * followed by a new line
+ * @str: the string
  */
 void puts_half(char *str)
 {
-int i, length_of_the_string, c, n;
-while (str[length_of_the_string] != '\0')
+int a = 0, n;
+while (str[a] != '\0')
 {
-length_of_the_string++;
+a++;
 }
-c = length_of_the_string - 1;
-n = c / 2;
-if (length_of_the_string % 2 != 0)
+if (a + 1 % 2 != '0')
 {
-for (i = n; i <= c; i++)
-{
-_putchar(str[i]);
-}
-_putchar('\n');
+n = (a - 1) / 2;
 }
 else
 {
-for (i = 0; i <= n; i++)
-{
-_putchar(str[i]);
+n = (a / 2);
 }
+n++;
+for (a = n; str[a] != '\0'; a++)
+_putchar(str[a]);
 _putchar('\n');
-}
 }
