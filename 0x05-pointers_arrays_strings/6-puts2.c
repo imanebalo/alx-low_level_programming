@@ -14,7 +14,10 @@ a++;
 }
 for (i = 0; i <= a - 1; i++)
 {
+if (i % 2 == 0)
+{	
 _putchar(str[i]);
+}
 }
 _putchar('\n');
 }
