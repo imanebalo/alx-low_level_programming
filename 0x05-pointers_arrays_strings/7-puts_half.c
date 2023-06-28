@@ -10,7 +10,7 @@ while (str[length_of_the_string] != '\0')
 {
 length_of_the_string++;
 }
-c = length_of_the_string - 1
+c = length_of_the_string - 1;
 for (i = 0; i <= n; i++)
 {
 _putchar(str[i]);
