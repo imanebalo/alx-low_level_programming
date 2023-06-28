@@ -7,7 +7,7 @@
  */
 void puts2(char *str)
 {
-int a;
+int a, i;
 while (str[a] != '\0')
 {
 a++;
