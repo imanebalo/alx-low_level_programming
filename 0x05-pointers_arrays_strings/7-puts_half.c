@@ -12,16 +12,20 @@ length_of_the_string++;
 }
 c = length_of_the_string - 1;
 n = c / 2;
-for (i = 0; i <= n; i++)
-{
-_putchar(str[i]);
-}
 if (length_of_the_string % 2 != 0)
 {
 for (i = n; i <= c; i++)
 {
 _putchar(str[i]);
 }
+_putchar('\n');
+}
+else
+{
+for (i = 0; i <= n; i++)
+{
+_putchar(str[i]);
 }
 _putchar('\n');
+}
 }
