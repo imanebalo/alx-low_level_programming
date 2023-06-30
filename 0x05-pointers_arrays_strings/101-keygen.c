@@ -22,7 +22,7 @@ int main() {
     srand(time(NULL));
 
     char password[PASSWORD_LENGTH + 1];
-    generate_password(password, PASSWORD_LENGTH);
+    passwd(password, PASSWORD_LENGTH);
 
     printf("Generated Password: %s\n", password);
 
