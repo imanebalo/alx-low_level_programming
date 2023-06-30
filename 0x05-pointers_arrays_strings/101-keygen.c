@@ -4,9 +4,9 @@
 
 #define PASSWORD_LENGTH 6
 /**
- * passwd - Program  generate random valid password for the program
+ * generete - Program  generate random valid password for the program
  */
-void passwd(char *password, int length) {
+void generate(char *password, int length) {
     const char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     int i;
 
@@ -22,7 +22,7 @@ int main() {
     srand(time(NULL));
 
     char password[PASSWORD_LENGTH + 1];
-    passwd(password, PASSWORD_LENGTH);
+    generate(password, PASSWORD_LENGTH);
 
     printf("Generated Password: %s\n", password);
 
