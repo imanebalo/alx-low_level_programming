@@ -4,9 +4,9 @@
 
 #define PASSWORD_LENGTH 6
 /**
- * main - Program that generate random valid password for the program
+ * passwd - Program  generate random valid password for the program
  */
-void main(char *password, int length) {
+void passwd(char *password, int length) {
     const char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     int i;
 

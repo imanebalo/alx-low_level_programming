@@ -24,7 +24,7 @@ if (b == 1)
 {
 break;
 }
-i++
+i++;
 }
 a *= min;
 return (a);
