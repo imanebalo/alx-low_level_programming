@@ -3,7 +3,7 @@
  * _strncat - Function that cocatenates two strings
  * @dest: char
  * @src: char
- * @n: 
+ * @n: the length of int
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
