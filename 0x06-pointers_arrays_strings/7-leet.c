@@ -6,8 +6,8 @@
 char *leet(char *str)
 {
 int i, j;
-char leet_char = "AEGOTL";
-char leet_remplace = "436017";
+char leet_char = {'A', 'E', 'G', 'O', 'T', 'L'};
+char leet_remplace = {'4', '3', '6', '0', '7', '1'};
 for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; j < 6; j++)
