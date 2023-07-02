@@ -17,4 +17,5 @@ if (a[j] == str[i])
 str[i] = b[j];
 }
 }
-return str;}
+return (str);
+}
