@@ -15,8 +15,8 @@ for (i = 0; *(str + i); i++)
 {
 for (j = 0; j <= 9; j++)
 {
-if (a[j] == s[i])
-s[i] = b[j];
+if (a[j] == str[i])
+str[i] = b[j];
 }
 }
 return str;
