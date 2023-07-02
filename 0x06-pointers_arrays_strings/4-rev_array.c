@@ -6,17 +6,11 @@
  */
 void reverse_array(int *a, int n)
 {
-int b[n];
 int i, j;
-for (i = n - 1; i >= 0; i--)
+for (i = 0; (i < (n - 1) / 2); i++)
 {
-for (j = 0; j < n; j++)
-{
-b[n - i -1] = a[i];
-}
-}
-for (i = 0; i < n; i++)
-{
-a[i] = b[i];
+j = a[i];
+a[i] = a[n - 1 - i];
+a[n - 1 - i] = j;
 }
 }
