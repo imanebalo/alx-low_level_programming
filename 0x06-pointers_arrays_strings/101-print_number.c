@@ -7,7 +7,6 @@ void print_number(int n)
 {
 unsigned int x;
 unsigned int num_digits = 0;
-unsigned int temp = x;
 unsigned int divisor = 1;
 unsigned int i;
 unsigned int digit = x / divisor;
@@ -17,9 +16,9 @@ _putchar('-');
 n *= -1;
 }
 x = n;
-while (temp > 0)
+while (x > 0)
 {
-temp /= 10;
+x /= 10;
 num_digits++;
 }
 while (num_digits > 0)
