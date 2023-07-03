@@ -6,28 +6,15 @@
 void print_number(int n)
 {
 unsigned int x;
-unsigned int num_digits = 0;
-unsigned int divisor = 1;
-unsigned int i;
 if (n < 0)
 {
 _putchar('-');
 n *= -1;
 }
 x = n;
-while (x > 0)
+if (x / 10)
 {
-x /= 10;
-num_digits++;
+print_number(x / 10);
 }
-while (num_digits > 0)
-{
-for (i = 1; i < num_digits; i++)
-{
-divisor *= 10;
-}
-_putchar((x / divisor) + '0');
-x %= divisor;
-num_digits--;
-}
+_putchar(x % 10 + '0');
 }
