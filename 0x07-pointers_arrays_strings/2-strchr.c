@@ -6,17 +6,20 @@
 * Return: Pointer to the first occurrence of the character c in the sring s**/
 char *_strchr(char *s, char c)
 {
-while (*s != '\0')
+while (*s)
 {
-if (*s == c)
+if (*s != c)
 {
-return (s);
+s++;
 }
-++s;
-}
-if (*s == c)
+else
 {
 return (s);
 }
-return (0);
+}
+if (c == '\0')
+{
+return (s);
+}
+return (NULL);
 }
