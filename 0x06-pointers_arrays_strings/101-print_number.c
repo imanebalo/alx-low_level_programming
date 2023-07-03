@@ -9,7 +9,6 @@ unsigned int x;
 unsigned int num_digits = 0;
 unsigned int divisor = 1;
 unsigned int i;
-unsigned int digit = x / divisor;
 if (n < 0)
 {
 _putchar('-');
@@ -27,7 +26,7 @@ for (i = 1; i < num_digits; i++)
 {
 divisor *= 10;
 }
-_putchar(digit + '0');
+_putchar((x / divisor) + '0');
 x %= divisor;
 num_digits--;
 }
